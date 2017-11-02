@@ -34,7 +34,7 @@ export default class {
     rootElement.innerHTML = html;
     
     // attach event listeners
-    $('#convertEURtoUSD').on('click', function() {
+    $('#convertEURtoUSD').on('click', ()=> {
       this.convertEURtoUSD() 
     });
     $('#convertUSDtoEUR').on('click', () => { 
